@@ -1,0 +1,55 @@
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+    /* margin-top: 10px; */
+    padding: 10px 0;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.logo span{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+
+.nav_items{
+    display: flex;
+    gap: 20px;
+}
+
+.nav_items .bi{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart_count{
+    /* border: 1px solid red; */
+    background-color: red;
+    color: white;
+    padding: 1px;
+    border-radius: 100%;
+    position: absolute;
+    top: 6px;
+    right: 108px;
+}

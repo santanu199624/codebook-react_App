@@ -1,0 +1,17 @@
+.Testimonial_heading{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: normal;
+    position: relative;
+}
+
+.Testimonial_heading::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 1;
+    bottom: 0;
+    width:24%;
+    height: 2px;
+    background-color: black;
+}

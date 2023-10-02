@@ -1,0 +1,17 @@
+.faq_heading{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: normal;
+    position: relative;
+}
+
+.faq_heading::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 1;
+    bottom: 0;
+    width:22%;
+    height: 2px;
+    background-color: black;
+}
